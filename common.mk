@@ -328,7 +328,6 @@ PRODUCT_PACKAGES += \
     tri-state-key-calibrate
 
 # Overlays
-$(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
